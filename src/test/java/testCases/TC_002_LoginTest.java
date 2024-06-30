@@ -3,6 +3,7 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
@@ -15,7 +16,7 @@ public class TC_002_LoginTest extends BaseClass {
 		try {
 			logger.info("*****starting TC_002_Verify_Login_Test*****");
 			logger.debug("Capturing application debug logs");
-
+			
 			// Home_Page
 			HomePage hp = new HomePage(driver);
 			hp.clickAccount();
