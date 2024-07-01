@@ -1,5 +1,5 @@
 package pageObjects;
 
-public class POMDummy {
+public class dummy {
 
 }
